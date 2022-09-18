@@ -1,29 +1,30 @@
 <?php
-$day = (rand(1 ,13 ));
-switch ($day) {
-    case 1:echo "1 класс";
+$class = (rand(1 ,13 ));
+switch ($class) {
+    case 1:echo "$class класс";
         break;
-    case 2:echo "2 класс";
+    case 2:echo "$class класс";
         break;
-    case 3:echo "3 класс";
+    case 3:echo "$class класс";
         break;
-    case 4:echo "4 класс";
+    case 4:echo "$class класс";
         break;
-    case 5:echo "5 класс";
+    case 5:echo "$class класс";
         break;
-    case 6:echo "6 класс";
+    case 6:echo "$class класс";
         break;
-    case 7:echo "7 класс";
+    case 7:echo "$class класс";
         break;
-    case 8:echo "8 класс";
+    case 8:echo "$class класс";
         break;
-    case 9:echo "9 класс";
+    case 9:echo "$class класс";
         break;
-    case 10:echo "10 класс";
+    case 10:echo "$clas класс";
         break;
-    case 11:echo "11 класс";
+    case 11:echo "$class класс";
         break;
-    case 12:echo "12 класс";
+    case 12:echo "$class класс";
         break;
-    default:echo "<span style = \" color: red;\">нет 13</span>";
+    default:echo "<span style = \" color: red;\">нет 13 классa</span>";
 }
+
